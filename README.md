@@ -2,7 +2,7 @@
 import random
 import string
 
-def generate_password(length=12):
+def generate_password(length=10):
     if length < 6:
         raise ValueError("Password length should be at least 6 characters.")
     
